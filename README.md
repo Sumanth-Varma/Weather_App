@@ -7,7 +7,7 @@ Install
   - Add your own API_KEY(appid) to App.js.
   - Install node packages.
   - Serve it locally yarn start
-  - Go to http://localhost:3000
+  - Open your browser.
 
 ## Available Scripts
 
