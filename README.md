@@ -1,6 +1,13 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Utilises OpenWeatherMap API for weather data and Weather Icons for icons.
+Install
+  - Clone this repo.
+  - Add your own API_KEY(appid) to App.js.
+  - Install node packages.
+  - Serve it locally yarn start
+  - Go to http://localhost:3000
 
 ## Available Scripts
 
