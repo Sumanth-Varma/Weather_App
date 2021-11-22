@@ -29,11 +29,11 @@ function App() {
 
   const fetchWeather = async (e) => {
     e.preventDefault();
-    const response = await Axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=22c7fd0cbde9ddf54e507918dfa4b36e`,);
+    const response = await Axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=API_KEY`,);
     updateWeather(response.data);
     const lat= response.data.coord.lat;
     const lon= response.data.coord.lon;
-    const res = await Axios.get(`http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&appid=22c7fd0cbde9ddf54e507918dfa4b36e`)
+    const res = await Axios.get(`http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&appid=API_KEY`)
     updateForecast(res.data.hourly);
   };
 
